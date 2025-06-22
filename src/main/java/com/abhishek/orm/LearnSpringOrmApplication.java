@@ -77,6 +77,6 @@ public class LearnSpringOrmApplication implements CommandLineRunner {
 
         Laptop laptop = student.getLaptop();
         logger.info("Laptop  {},{}", laptop.getBrand(), laptop.getModelNumber());
-
+        // this is testing
     }
 }
